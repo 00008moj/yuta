@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    background-color: #111317;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.brand-container {
+    background-color: #111317;
+}
+
+.brand-logo {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 15px;
+}
+
+.brand-title {
+    display: inline-block;
+    position: relative;
+    left: 25px;
+    font-family: Inter;
+    color: #f9fafb;
+}
+
+.brand-links {
+    float: right;
+    position: relative;
+    top: -50px;
+    left: -25px;
+
+}
+.brand-links a {
+    font-family: Inter;
+    text-decoration: none;
+    color: #f9fafb;
+    transition: 0.2s;
+    padding: 5px 25px;
+}
+
+.brand-links a:hover {
+    color: #EC407A;
+}
+
+.yuta-text {
+    font-family: Inter;
+    color: #f9fafb;
+}
+
+.yuta-header {
+    display: inline;
+    position: relative;
+    top: 75px;
+    left: 50px;
+    font-size: 5em;
+    margin: 0;
+}
+
+.yuta-description {
+    font-size: 1.3em;
+    display: inline-block;
+    width: 700px;
+    position: relative;
+    top: 75px;
+    left: 50px;
+}
+
+.yuta-image {
+    float: right;
+    display: inline;
+}
+
+.yuta-pic {
+    display: inline-block;
+    position: absolute;
+    left: 900px;
+    bottom: 150px;
+    margin: 0;
+}
+
+button {
+    background-color: #EC407A;
+    border: none;
+    border-radius: 25px;
+    font-family: Inter;
+    font-weight: bold;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    color: #f9fafb;
+    padding: 15px 25px;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 5px 5px;
+    width: 200px;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #F06292;
+}
+
+button:active {
+    background-color: #F48FB1;
+}
+
+.links {
+    position: relative;
+    top: 200px;
+    left: 50px;
+    color: #f9fafb;
+    font-size: 24px;
+    width: 250px;
+}
+
+.ri-facebook-fill {
+    display: inline;
+    background-color: #EC407A;
+    border-radius: 50px;
+    margin: 15px;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.ri-facebook-fill:hover {
+    background-color: #F06292;
+}
+
+.ri-facebook-fill:active {
+    background-color: #F8BBD0;
+}
+
+.ri-twitter-fill {
+    background-color: #EC407A;
+    border-radius: 50px;
+    margin: 15px;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.ri-twitter-fill:hover {
+    background-color: #F06292;
+}
+
+.ri-twitter-fill:active {
+    background-color: #F8BBD0;
+}
+
+.ri-instagram-fill {
+    background-color: #EC407A;
+    border-radius: 50px;
+    margin: 15px;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.ri-instagram-fill:hover {
+    background-color: #F06292;
+}
+
+.ri-instagram-fill:active {
+    background-color: #F8BBD0;
+}
